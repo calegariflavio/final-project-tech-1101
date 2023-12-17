@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hobbies</title>
+    <link rel="stylesheet" href="../css/styles.css"> <!-- Linking external CSS -->
+    <style>
+        /* Internal styling for #photo */
+        #photo {
+            max-width: 100%;
+            max-height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Breadcrumb navigation -->
+    <div class="breadcrumb" id="breadcrumb">
+        <a href="index.html">About Me</a> &raquo;
+        <a href="resume.html">Resume</a> &raquo;
+        <a href="hobbies.html">Hobbies</a> &raquo;
+        <a href="html_cheat_sheet.html">HTML Cheat Sheet</a>
+    </div>
+
+    <!-- Content about hobbies -->
+    <div id="about-me" class="tab-content active">
+        <h2>Hobbies</h2>
+    </div>
+
+    <!-- Main content -->
+    <main>
+        <!-- Section about playing games -->
+        <div class="section">
+            <h2>Play Games</h2>
+            <p>I like to play online and local games such as</p>
+            <!-- List of game buttons -->
+            <li><a href="https://www.ea.com/games/battlefield/battlefield-2042?setLocale=en-us"><button
+                        class="btn-list">Battlefield 2042</button></a></li>
+            <li><a href="https://deadbydaylight.com/"><button class="btn-list">Dead By Daylight</button></a></li>
+            <li><a href="https://www.pathofexile.com/"><button class="btn-list">Path of Exile</button></a></li>
+            <li><a href="https://store.steampowered.com/agecheck/app/1245620/"><button class="btn-list">Elden
+                        Ring</button></a></li>
+            <li><a href="https://store.steampowered.com/agecheck/app/1259420/"><button class="btn-list">Days
+                        Gone</button></a></li>
+        </div>
+
+        <!-- Section about listening to music -->
+        <div class="section">
+            <h2>Listen to Music</h2>
+
+            <!-- Photo viewer -->
+            <div class="photo-viewer" id="photo">
+                <img id="photo" class="cool-border" style="align-items: center;"
+                    src="../other-resources/images/showMeHowToLive.jpg" alt="First Photo">
+            </div>
+
+            <!-- Music player -->
+            <div class="music-player">
+                <audio id="audioPlayer" src="../other-resources/songs/showMeHowToLive.mp3" controls></audio>
+            </div>
+        </div>
+
+        <!-- Including JavaScript -->
+        <script src="../scripts/js.js"></script>
+    </main>
+</body>
+
+</html>

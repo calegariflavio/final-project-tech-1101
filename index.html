@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Page</title>
+    <!-- Linking the external stylesheet -->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+    <!-- Breadcrumb navigation -->
+    <div class="breadcrumb" id="breadcrumb">
+        <a href="index.html">About Me</a> &raquo;
+        <a href="resume.html">Resume</a> &raquo;
+        <a href="hobbies.html">Hobbies</a> &raquo;
+        <a href="html_cheat_sheet.html">HTML Cheat Sheet</a>
+    </div>
+
+
+    <!-- About Me section -->
+    <div id="about-me" class="tab-content active">
+        <h2>About Me</h2>
+        <p>Welcome to my personal page! Here's a glimpse into who I am...</p>
+    </div>
+
+    <!-- Content container -->
+    <div class="index-container">
+        <!-- Profile picture -->
+        <img id="picture" src="../other-resources/images/cover_photo.jpeg" onclick="redirectToWebsite()"
+            style="cursor:pointer;" class="cool-border">
+        <!-- Hint div -->
+        <div id="hint"></div>
+        <!-- Description about the person -->
+        <p id="zoomText" class="description">
+            Hey there! I'm a proud Curitiba native, born and bred back in '94. I'm all about the good stuff in life:
+            playing soccer, rocking out to some serious metal tunes, diving into games on PC and consoles, geeking out
+            over the latest in tech, coding my way through projects, and getting lost in the worlds of movies and
+            series. I'm basically a blend of adrenaline, pixels, and a touch of coding magic. Cheers to exploring
+            passions and embracing the awesome!
+        </p>
+
+        <!-- Content section with buttons -->
+        <div class="content">
+            <h2>In my personal page you will find:</h2>
+            <!-- Buttons linking to different sections -->
+            <a href="resume.html"><button class="btn" id="btn1">My Resume</button></a>
+            <a href="hobbies.html"><button class="btn" id="btn2">My Hobbies</button></a>
+            <a href="html_cheat_sheet.html"><button class="btn" id="btn3">HTML Cheat Sheet</button></a>
+        </div>
+    </div>
+
+    <!-- Linking the JavaScript file -->
+    <script src="../scripts/js.js"></script>
+</body>
+
+</html>

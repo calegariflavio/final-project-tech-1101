@@ -1,0 +1,133 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    /* Set font family for the entire document */
+    margin: 0;
+    /* Remove default margin */
+    padding: 0;
+    /* Remove default padding */
+    background-color: #f8f8f8;
+    /* Set background color */
+    color: #333;
+    /* Set text color */
+}
+
+/* Breadcrumb styles */
+.breadcrumb {
+    background-color: lightgrey;
+    /* Set background color for breadcrumb */
+    padding: 10px;
+    /* Add padding inside breadcrumb */
+    text-align: center;
+    /* Center-align breadcrumb text */
+    margin-bottom: 20px;
+    /* Add margin at the bottom of breadcrumb */
+    font-size: 18px;
+    /* Set font size */
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    /* Remove underline from breadcrumb links */
+    color: #555;
+    /* Set link color */
+    margin: 0 10px;
+    /* Add margin around breadcrumb links */
+    transition: color 0.3s ease-in-out;
+    /* Smooth transition for link color change */
+}
+
+.breadcrumb a:hover {
+    color: #f44336;
+    /* Change link color on hover */
+}
+
+/* Tab styles */
+.tab-content {
+    display: none;
+    /* Hide tab content by default */
+    padding: 20px;
+    /* Add padding inside tab content */
+    text-align: center;
+    /* Center-align tab content */
+}
+
+.tab-content.active {
+    display: block;
+    /* Display active tab content */
+}
+
+h2 {
+    color: #f44336;
+    /* Set heading color */
+    font-size: 28px;
+    /* Set heading font size */
+    margin-bottom: 10px;
+    /* Add margin at the bottom of headings */
+}
+
+p {
+    font-size: 18px;
+    /* Set paragraph font size */
+    line-height: 1.6;
+    /* Set line height for paragraphs */
+}
+
+/* Specific section styles */
+section div h2 {
+    color: #a7332b;
+    /* Set color for specific section headings */
+    font-size: 22px;
+    /* Set font size for specific section headings */
+    margin-bottom: 10px;
+    /* Add margin at the bottom of specific section headings */
+}
+
+section {
+    margin-left: 50px;
+    /* Add left margin to sections */
+}
+
+/* Table cell styles */
+td {
+    padding: 8px;
+    /* Adding padding for spacing inside table cells */
+    border: 5px solid grey;
+    /* Set border for table cells */
+    border-radius: 10px;
+    /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    /* Add shadow effect */
+}
+
+/* Alignment for table cells */
+.top-align {
+    vertical-align: top;
+    /* Align content to the top */
+    width: 20%;
+    /* Set width for alignment */
+}
+
+/* Button list styles */
+.btn-list {
+    font-family: luminari, fantasy;
+    /* Set font family for button list */
+    font-size: 1.5em;
+    /* Set font size for button list */
+    font-style: italic;
+    /* Apply italic style to button list */
+    border-radius: 55px;
+    /* Add border radius to buttons */
+}
+
+/* Additional styling */
+.filler {
+    width: 40%;
+    /* Set width */
+    border: 0px white;
+    /* Set border style */
+    border-radius: 0px;
+    /* Set border radius */
+    box-shadow: 0 0 0 0;
+    /* Remove box shadow */
+}
